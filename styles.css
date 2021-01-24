@@ -117,14 +117,26 @@ body {
   margin-right: 29px;
 }
 
-#about {
+.about {
   margin-top: 70px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.085em;
   color: #949494;
-    grid-column-start: 2;
+}
+
+.about span {
+  border-bottom: #4CB0B0 3px solid;
+}
+
+#brittany {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+#lynzie {
+  grid-column-start: 7;
   grid-column-end: 12;
 }
 
