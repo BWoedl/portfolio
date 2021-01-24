@@ -48,7 +48,7 @@ body {
  }
 
 #statement-box, #scroll-container {
-    grid-column-start: 2;
+  grid-column-start: 2;
   grid-column-end: 12;
 }
 
@@ -142,6 +142,74 @@ body {
 
 #featured {
   margin-top: 207px;
+  font-size: 28px;
+  line-height: 39px;
+  color: #4A4E4E;
+}
+
+#featured span {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#footer {
+  height: 308px;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-rows: 50px 82px auto;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#cta {
+  margin-top: 20px;
+  font-size: 28px;
+  line-height: 39px;
+  color: #4A4E4E;
+  grid-column-start: 2;
+  grid-column-end: 12;
+}
+
+.footer-brittany, .footer-lynzie, .email, .linkedin {
+  line-height: 25px;
+  letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
+}
+
+#footer-brittany {
+  margin-top: 49px;
+  grid-row-start: 2;
+  grid-column-start: 2;  
+  grid-column-end: 7; 
+}
+
+#footer-lynzie {
+  margin-top: 49px;
+  grid-row-start: 2;
+  grid-column-start: 7;  
+  grid-column-end: 12; 
+  text-align: right;
+}
+
+#footer-lynzie span, #footer-brittany span {
+  border-bottom: #4CB0B0 3px solid;
+}
+
+.by {
+  margin-top: 62px;
+  grid-column-start: 2;
+  grid-column-end: 7; 
+  font-size: 14px;
+  line-height: 19px;
+  color: #949494;
+  grid-row-start: 3;
+}
+
+#logo-bottom {
+  margin-top: 62px;
+  width: 81.69;
+  grid-row-start: 3;
+  grid-column-end: 12; 
+  text-align: right;
 }
 
 @media only screen and (min-width: 720px) {
@@ -169,7 +237,7 @@ body {
   }
   .header-links {
     display: flex;
-    margin-right: 14px;
+    margin-right: 30px;
     font-size: 24px;
     line-height: 33px;
     color: #949494;
