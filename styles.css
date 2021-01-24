@@ -145,14 +145,62 @@ body {
   font-size: 28px;
   line-height: 39px;
   color: #4A4E4E;
+  grid-column-start: 2;
+  grid-column-end: 7;
 }
 
 #featured span {
   font-size: 18px;
   line-height: 25px;
+  margin-bottom: 14px;
+}
+
+.work {
+  margin-top: 14px;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  height: 243px;
+  border: 1px black solid;
+}
+
+.work-description {
+  margin-top: 15px;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4A4E4E;
+  margin-bottom: 59px;
+}
+
+#collaboration {
+  font-size: 28px;
+  line-height: 39px;
+  color: #4A4E4E;
+  grid-column-start: 2;
+  grid-column-end: 12;
+}
+
+#collaboration span {
+  font-size: 18px;
+line-height: 25px;
+margin-top: 20px;
+}
+
+#chicken-and-shark {
+  margin-top: 54;
+    grid-column-start: 2;
+  grid-column-end: 12;
+}
+
+#chicken-and-shark-photo {
+ object-fit: cover;
+  width: 100%;
+  max-height: 100%;
 }
 
 #footer {
+  margin-top: 108px;
   height: 308px;
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
   display: grid;
@@ -209,7 +257,7 @@ body {
   width: 81.69;
   grid-row-start: 3;
   grid-column-end: 12; 
-  text-align: right;
+  justify-self: end;
 }
 
 @media only screen and (min-width: 720px) {
